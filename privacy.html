@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tressence OCR – Privacy Policy</title>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; max-width: 860px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #0f172a; }
+    h1 { font-size: 26px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    code, a { color: #2563eb; }
+    small { color: #475569; }
+    ul { margin: 0.5em 0 0.5em 1.2em; }
+  </style>
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="Privacy policy for the Tressence OCR Chrome extension." />
+</head>
+<body>
+  <h1>Tressence OCR – Privacy Policy</h1>
+  <p><small>Effective date: 2025‑11‑03</small></p>
+
+  <h2>Overview</h2>
+  <p>Tressence OCR is a Chrome extension that lets you extract text from images and PDF links on webpages, classify the text (e.g., name, place, phone, sentiment, topic), and optionally fill visible form fields on the page. This policy explains what data the extension processes, how it’s used, and your choices.</p>
+
+  <h2>Data We Process</h2>
+  <ul>
+    <li><b>User‑selected content:</b> Images or PDF pages you explicitly select (e.g., via right‑click menu). If a PDF has native text, the extension attempts to extract it locally via PDF.js; otherwise pages are rendered to images for OCR.</li>
+    <li><b>Derived outputs:</b> OCR text and classification results generated for your use.</li>
+    <li><b>Local app data:</b> Settings (templates, per‑site auto‑fill rules), recent results, quota counters, and overlay position are stored locally using Chrome storage.</li>
+  </ul>
+
+  <h2>How Your Data Is Used</h2>
+  <ul>
+    <li>To perform OCR and classification requested by you.</li>
+    <li>To display results in the extension UI and optionally fill visible form fields on the page when you choose.</li>
+    <li>To remember preferences and improve the user experience locally.</li>
+  </ul>
+
+  <h2>Third‑Party Services</h2>
+  <p>The extension may send data you select (images/PDF pages or extracted text) to the APIs you configure, for the sole purpose of returning OCR/classification results to you:</p>
+  <ul>
+    <li>Google Cloud Vision API (OCR): <a href="https://cloud.google.com/vision">cloud.google.com/vision</a></li>
+    <li>DeepSeek API (classification): <a href="https://api.deepseek.com">api.deepseek.com</a></li>
+  </ul>
+  <p>The extension does not sell your data or share it for advertising.</p>
+
+  <h2>Storage & Retention</h2>
+  <ul>
+    <li>No extension‑managed server storage. Results and settings are kept locally in Chrome storage on your device.</li>
+    <li>You can clear data at any time by removing the extension’s site data or uninstalling the extension.</li>
+  </ul>
+
+  <h2>Permissions Used</h2>
+  <ul>
+    <li><b>storage:</b> Save settings, recent results, usage counters, overlay position.</li>
+    <li><b>contextMenus:</b> Provide right‑click actions to start OCR/classification.</li>
+    <li><b>activeTab:</b> Operate on the current tab after you trigger an action.</li>
+    <li><b>scripting:</b> Inject minimal scripts to display the overlay and fill form fields that you choose.</li>
+    <li><b>offscreen:</b> Render PDFs with PDF.js in an offscreen document due to MV3 limitations.</li>
+    <li><b>tabs:</b> Determine a suitable web tab for filling and focus result windows.</li>
+    <li><b>host permissions:</b> Allow the overlay and user‑initiated form filling to work on the sites where you act.</li>
+  </ul>
+
+  <h2>Children’s Privacy</h2>
+  <p>This extension is not intended for children under 13.</p>
+
+  <h2>Security</h2>
+  <p>Communication with third‑party APIs uses HTTPS. We recommend configuring only trusted API providers.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. We will post any changes to this page and update the effective date.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy or the extension, contact: <a href="mailto:[YOUR‑EMAIL]">[YOUR‑EMAIL]</a></p>
+</body>
+</html>
+
